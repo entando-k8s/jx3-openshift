@@ -9,9 +9,9 @@
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg
     ingresses:
     - name: bucketrepo
-      url: https://bucketrepo-jx.apps.enta.entazure.com
+      url: http://bucketrepo-jx.apps.enta.entazure.com/
     - name: hook
-      url: https://hook-jx.apps.enta.entazure.com
+      url: http://hook-jx.apps.enta.entazure.com/hook
     lastDeployed: "2021-05-13T07:18:40Z"
     name: jxboot-helmfile-resources
     repositoryName: jx3
@@ -20,14 +20,14 @@
     version: 1.0.53
   - apiVersion: v1
     appVersion: latest
-    applicationUrl: https://dashboard-jx.apps.enta.entazure.com
+    applicationUrl: http://dashboard-jx.apps.enta.entazure.com
     description: Web UI for Jenkins X, with a clear goal - visualize the pipelines - and their logs.
     firstDeployed: "2021-05-13T07:18:44Z"
     home: https://github.com/jenkins-x/jx-pipelines-visualizer
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg
     ingresses:
     - name: jx-pipelines-visualizer
-      url: https://dashboard-jx.apps.enta.entazure.com
+      url: http://dashboard-jx.apps.enta.entazure.com
     lastDeployed: "2021-05-13T07:18:44Z"
     name: jx-pipelines-visualizer
     repositoryName: jx3

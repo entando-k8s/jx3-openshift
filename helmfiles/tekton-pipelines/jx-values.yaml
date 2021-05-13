@@ -43,7 +43,7 @@ jxRequirements:
     namespaceSubDomain: -tekton-pipelines.
     tls:
       email: a.barnard@entando.com
-      enabled: true
+      enabled: false
       production: false
   pipelineUser:
     username: entando-jx
@@ -54,7 +54,7 @@ jxRequirements:
 jxRequirementsIngressExternalDNS:
   enabled: false
 jxRequirementsIngressTLS:
-  enabled: true
+  enabled: false
 jxRequirementsKuberhealthy:
   enabled: false
 jxRequirementsTLSCheck:

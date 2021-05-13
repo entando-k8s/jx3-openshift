@@ -18,7 +18,3 @@ spec:
               servicePort: 80
             path: "/"
       host: bucketrepo-jx.apps.enta.entazure.com
-  tls:
-    - hosts:
-        - bucketrepo-jx.apps.enta.entazure.com
-      secretName: "tls-apps-enta-entazure-com-s"
