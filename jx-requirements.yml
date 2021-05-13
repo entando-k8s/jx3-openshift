@@ -17,16 +17,21 @@ spec:
     registry: ghcr.io
   environments:
   - key: dev
+    owner: entando-k8s
+    repository: jx3-openshift
   - key: staging
   - key: production
   ingress:
-    domain: "apps.enta.entazure.com"
+    domain: apps.enta.entazure.com
     externalDNS: false
+    kind: ingress
     namespaceSubDomain: -jx.
     tls:
       email: "a.barnard@entando.com"
       enabled: true
       production: false
+  pipelineUser:
+    username: entando-jx
   repository: bucketrepo
   secretStorage: local
   vault: {}
