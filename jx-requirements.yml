@@ -28,7 +28,7 @@ spec:
     namespaceSubDomain: -jx.
     tls:
       email: "a.barnard@entando.com"
-      enabled: true
+      enabled: false
       production: false
   pipelineUser:
     username: entando-jx
