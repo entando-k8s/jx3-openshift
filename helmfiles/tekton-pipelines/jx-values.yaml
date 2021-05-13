@@ -42,8 +42,8 @@ jxRequirements:
     kind: ingress
     namespaceSubDomain: -tekton-pipelines.
     tls:
-      email: ""
-      enabled: false
+      email: a.barnard@entando.com
+      enabled: true
       production: false
   pipelineUser:
     username: entando-jx
@@ -54,7 +54,7 @@ jxRequirements:
 jxRequirementsIngressExternalDNS:
   enabled: false
 jxRequirementsIngressTLS:
-  enabled: false
+  enabled: true
 jxRequirementsKuberhealthy:
   enabled: false
 jxRequirementsTLSCheck:
