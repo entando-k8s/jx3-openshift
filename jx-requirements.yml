@@ -24,8 +24,8 @@ spec:
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
-      email: ""
-      enabled: false
+      email: "a.barnard@entando.com"
+      enabled: true
       production: false
   repository: bucketrepo
   secretStorage: local
