@@ -27,7 +27,7 @@ spec:
     kind: ingress
     namespaceSubDomain: -jx.
     tls:
-      email: "a.barnard@entando.com"
+      email: a.barnard@entando.com
       enabled: true
       production: false
   pipelineUser:

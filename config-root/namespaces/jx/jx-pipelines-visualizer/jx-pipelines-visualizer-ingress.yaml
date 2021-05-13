@@ -24,3 +24,7 @@ spec:
           - backend:
               serviceName: jx-pipelines-visualizer
               servicePort: http
+  tls:
+    - secretName: tls-apps-enta-entazure-com-s
+      hosts:
+        - dashboard-jx.apps.enta.entazure.com
